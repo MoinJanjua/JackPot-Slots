@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a-background-image-for-a-slot-game-with-_4ymtPJfCS0Kwveim4oBw2Q_JZd9tTwnT3WfJIb3Sn0h0A" translatesAutoresizingMaskIntoConstraints="NO" id="ZjN-9v-7jz">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jackpot Slots" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjk-UW-FDN">
+                                <rect key="frame" x="0.0" y="159" width="393" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ap4-Yj-YDo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pjk-UW-FDN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Gbc-YQ-sU8"/>
+                            <constraint firstItem="ZjN-9v-7jz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LON-e3-Al1"/>
+                            <constraint firstItem="Pjk-UW-FDN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="MfD-5w-YF2"/>
+                            <constraint firstItem="Pjk-UW-FDN" firstAttribute="centerX" secondItem="ZjN-9v-7jz" secondAttribute="centerX" id="RV2-OA-QBN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZjN-9v-7jz" secondAttribute="trailing" id="SrI-Q4-bGQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pjk-UW-FDN" secondAttribute="trailing" id="VJS-Kf-s2R"/>
+                            <constraint firstItem="ZjN-9v-7jz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="p4x-tQ-1sh"/>
+                            <constraint firstAttribute="bottom" secondItem="ZjN-9v-7jz" secondAttribute="bottom" id="wHt-tg-LOx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="a-background-image-for-a-slot-game-with-_4ymtPJfCS0Kwveim4oBw2Q_JZd9tTwnT3WfJIb3Sn0h0A" width="736" height="1312"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

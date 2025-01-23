@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "an-animated-banner-image-of-a-slot-machi_zfQjdQM6QhaiFYJoWN2IIg_L4iotbiiS_GeS4gXs0vdHA.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

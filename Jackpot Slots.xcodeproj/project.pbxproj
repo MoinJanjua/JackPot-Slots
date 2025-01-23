@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA91C6452D29F0F7005F86E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91C6442D29F0F7005F86E0 /* AppDelegate.swift */; };
+		AA91C6472D29F0F7005F86E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91C6462D29F0F7005F86E0 /* SceneDelegate.swift */; };
+		AA91C64C2D29F0F7005F86E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA91C64A2D29F0F7005F86E0 /* Main.storyboard */; };
+		AA91C64E2D29F0FA005F86E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA91C64D2D29F0FA005F86E0 /* Assets.xcassets */; };
+		AA91C6512D29F0FA005F86E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA91C64F2D29F0FA005F86E0 /* LaunchScreen.storyboard */; };
+		AA91C65A2D29F12A005F86E0 /* SlotGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91C6592D29F12A005F86E0 /* SlotGameViewController.swift */; };
+		AA91C65E2D29F189005F86E0 /* SlotReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91C65D2D29F189005F86E0 /* SlotReelsViewController.swift */; };
+		AA9BFD3A2D32EA3300D98E00 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFD392D32EA3300D98E00 /* HistoryViewController.swift */; };
+		AA9BFD3C2D32EA4A00D98E00 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFD3B2D32EA4900D98E00 /* HistoryTableViewCell.swift */; };
+		AA9BFD412D32F33800D98E00 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFD3E2D32F33800D98E00 /* SettingsViewController.swift */; };
+		AA9BFD422D32F33800D98E00 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFD3F2D32F33800D98E00 /* FeedbackViewController.swift */; };
+		AA9BFD432D32F33800D98E00 /* AboutUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9BFD402D32F33800D98E00 /* AboutUSViewController.swift */; };
+		AAE43B742D2DBAF30097B4EC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE43B732D2DBAF30097B4EC /* Helper.swift */; };
+		AAE43B762D2FFF780097B4EC /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE43B752D2FFF780097B4EC /* GifImage.swift */; };
+		AAE43B782D2FFFA80097B4EC /* ththt.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAE43B772D2FFFA80097B4EC /* ththt.gif */; };
+		AAE43B7B2D314A4B0097B4EC /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE43B7A2D314A4B0097B4EC /* ScoresViewController.swift */; };
+		AAE43B7D2D314A5A0097B4EC /* ScoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE43B7C2D314A5A0097B4EC /* ScoresTableViewCell.swift */; };
+		AAE43B802D316B720097B4EC /* AddScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE43B7F2D316B720097B4EC /* AddScoresViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA91C6412D29F0F7005F86E0 /* Jackpot Slots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jackpot Slots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA91C6442D29F0F7005F86E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA91C6462D29F0F7005F86E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA91C64B2D29F0F7005F86E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA91C64D2D29F0FA005F86E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA91C6502D29F0FA005F86E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA91C6522D29F0FA005F86E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA91C6592D29F12A005F86E0 /* SlotGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotGameViewController.swift; sourceTree = "<group>"; };
+		AA91C65D2D29F189005F86E0 /* SlotReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotReelsViewController.swift; sourceTree = "<group>"; };
+		AA9BFD392D32EA3300D98E00 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		AA9BFD3B2D32EA4900D98E00 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		AA9BFD3E2D32F33800D98E00 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AA9BFD3F2D32F33800D98E00 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		AA9BFD402D32F33800D98E00 /* AboutUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUSViewController.swift; sourceTree = "<group>"; };
+		AAE43B732D2DBAF30097B4EC /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AAE43B752D2FFF780097B4EC /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		AAE43B772D2FFFA80097B4EC /* ththt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ththt.gif; sourceTree = "<group>"; };
+		AAE43B7A2D314A4B0097B4EC /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
+		AAE43B7C2D314A5A0097B4EC /* ScoresTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresTableViewCell.swift; sourceTree = "<group>"; };
+		AAE43B7F2D316B720097B4EC /* AddScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScoresViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA91C63E2D29F0F7005F86E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA91C6382D29F0F7005F86E0 = {
+			isa = PBXGroup;
+			children = (
+				AA91C6432D29F0F7005F86E0 /* Jackpot Slots */,
+				AA91C6422D29F0F7005F86E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA91C6422D29F0F7005F86E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA91C6412D29F0F7005F86E0 /* Jackpot Slots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA91C6432D29F0F7005F86E0 /* Jackpot Slots */ = {
+			isa = PBXGroup;
+			children = (
+				AA9BFD3D2D32F30300D98E00 /* Settings */,
+				AA9BFD382D32EA2300D98E00 /* History */,
+				AAE43B792D314A3A0097B4EC /* Scoreboard */,
+				AAE43B722D2DBACB0097B4EC /* Helper */,
+				AA91C65B2D29F173005F86E0 /* Reels */,
+				AA91C6582D29F104005F86E0 /* Welcome */,
+				AA91C6442D29F0F7005F86E0 /* AppDelegate.swift */,
+				AA91C6462D29F0F7005F86E0 /* SceneDelegate.swift */,
+				AA91C64A2D29F0F7005F86E0 /* Main.storyboard */,
+				AA91C64D2D29F0FA005F86E0 /* Assets.xcassets */,
+				AA91C64F2D29F0FA005F86E0 /* LaunchScreen.storyboard */,
+				AA91C6522D29F0FA005F86E0 /* Info.plist */,
+			);
+			path = "Jackpot Slots";
+			sourceTree = "<group>";
+		};
+		AA91C6582D29F104005F86E0 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				AA91C6592D29F12A005F86E0 /* SlotGameViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		AA91C65B2D29F173005F86E0 /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+				AA91C65D2D29F189005F86E0 /* SlotReelsViewController.swift */,
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+		AA9BFD382D32EA2300D98E00 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				AA9BFD392D32EA3300D98E00 /* HistoryViewController.swift */,
+				AA9BFD3B2D32EA4900D98E00 /* HistoryTableViewCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AA9BFD3D2D32F30300D98E00 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AA9BFD402D32F33800D98E00 /* AboutUSViewController.swift */,
+				AA9BFD3F2D32F33800D98E00 /* FeedbackViewController.swift */,
+				AA9BFD3E2D32F33800D98E00 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AAE43B722D2DBACB0097B4EC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AAE43B772D2FFFA80097B4EC /* ththt.gif */,
+				AAE43B732D2DBAF30097B4EC /* Helper.swift */,
+				AAE43B752D2FFF780097B4EC /* GifImage.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AAE43B792D314A3A0097B4EC /* Scoreboard */ = {
+			isa = PBXGroup;
+			children = (
+				AAE43B7A2D314A4B0097B4EC /* ScoresViewController.swift */,
+				AAE43B7C2D314A5A0097B4EC /* ScoresTableViewCell.swift */,
+				AAE43B7F2D316B720097B4EC /* AddScoresViewController.swift */,
+			);
+			path = Scoreboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA91C6402D29F0F7005F86E0 /* Jackpot Slots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA91C6552D29F0FA005F86E0 /* Build configuration list for PBXNativeTarget "Jackpot Slots" */;
+			buildPhases = (
+				AA91C63D2D29F0F7005F86E0 /* Sources */,
+				AA91C63E2D29F0F7005F86E0 /* Frameworks */,
+				AA91C63F2D29F0F7005F86E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jackpot Slots";
+			productName = "Jackpot Slots";
+			productReference = AA91C6412D29F0F7005F86E0 /* Jackpot Slots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA91C6392D29F0F7005F86E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AA91C6402D29F0F7005F86E0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AA91C63C2D29F0F7005F86E0 /* Build configuration list for PBXProject "Jackpot Slots" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA91C6382D29F0F7005F86E0;
+			productRefGroup = AA91C6422D29F0F7005F86E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA91C6402D29F0F7005F86E0 /* Jackpot Slots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA91C63F2D29F0F7005F86E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA91C6512D29F0FA005F86E0 /* LaunchScreen.storyboard in Resources */,
+				AAE43B782D2FFFA80097B4EC /* ththt.gif in Resources */,
+				AA91C64E2D29F0FA005F86E0 /* Assets.xcassets in Resources */,
+				AA91C64C2D29F0F7005F86E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA91C63D2D29F0F7005F86E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA91C65E2D29F189005F86E0 /* SlotReelsViewController.swift in Sources */,
+				AA91C6452D29F0F7005F86E0 /* AppDelegate.swift in Sources */,
+				AA9BFD432D32F33800D98E00 /* AboutUSViewController.swift in Sources */,
+				AAE43B7B2D314A4B0097B4EC /* ScoresViewController.swift in Sources */,
+				AA9BFD3A2D32EA3300D98E00 /* HistoryViewController.swift in Sources */,
+				AAE43B762D2FFF780097B4EC /* GifImage.swift in Sources */,
+				AAE43B742D2DBAF30097B4EC /* Helper.swift in Sources */,
+				AA91C65A2D29F12A005F86E0 /* SlotGameViewController.swift in Sources */,
+				AAE43B802D316B720097B4EC /* AddScoresViewController.swift in Sources */,
+				AA9BFD3C2D32EA4A00D98E00 /* HistoryTableViewCell.swift in Sources */,
+				AAE43B7D2D314A5A0097B4EC /* ScoresTableViewCell.swift in Sources */,
+				AA9BFD422D32F33800D98E00 /* FeedbackViewController.swift in Sources */,
+				AA91C6472D29F0F7005F86E0 /* SceneDelegate.swift in Sources */,
+				AA9BFD412D32F33800D98E00 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA91C64A2D29F0F7005F86E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA91C64B2D29F0F7005F86E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA91C64F2D29F0FA005F86E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA91C6502D29F0FA005F86E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA91C6532D29F0FA005F86E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA91C6542D29F0FA005F86E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA91C6562D29F0FA005F86E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jackpot Slots/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jackpot-Slots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA91C6572D29F0FA005F86E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jackpot Slots/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jackpot-Slots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA91C63C2D29F0F7005F86E0 /* Build configuration list for PBXProject "Jackpot Slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA91C6532D29F0FA005F86E0 /* Debug */,
+				AA91C6542D29F0FA005F86E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA91C6552D29F0FA005F86E0 /* Build configuration list for PBXNativeTarget "Jackpot Slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA91C6562D29F0FA005F86E0 /* Debug */,
+				AA91C6572D29F0FA005F86E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA91C6392D29F0F7005F86E0 /* Project object */;
+}
